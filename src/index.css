@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e1e8eb;
+}
+.parent {
+  padding: 0;
+}
+.parent textarea{
+  margin: 0;
+}
+textarea.form-control:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+}
